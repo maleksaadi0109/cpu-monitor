@@ -40,6 +40,3 @@ chmod +x cpu.sh
 
 The script reads `/proc/stat` at a set interval, calculates the delta in CPU ticks between samples, and renders colored bars using ANSI escape codes. It runs in the alternate screen buffer so your terminal stays clean after exit.
 
-## License
-
-MIT
